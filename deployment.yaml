@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-world
-        image: <IMAGE>
+        image: vapishfish/k8s-tomcat
         ports:
         - containerPort: 8080
